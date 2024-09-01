@@ -1,4 +1,4 @@
-package Iniciales;
+package iniciales;
 
 import java.util.Random;
 import java.util.Scanner;
