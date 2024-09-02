@@ -1,4 +1,6 @@
-package intermedios;
+package intermedios.sistemadebiblioteca;
+
+
 import java.util.ArrayList;
 import java.util.List;
 /*

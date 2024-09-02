@@ -1,4 +1,4 @@
-package intermedios;
+package intermedios.sistemadebiblioteca;
 
 public class libro {
     private String titulo;

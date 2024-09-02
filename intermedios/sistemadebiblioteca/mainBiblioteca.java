@@ -1,4 +1,4 @@
-package intermedios;
+package intermedios.sistemadebiblioteca;
 
 import java.util.Scanner;
 
