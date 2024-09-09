@@ -1,4 +1,4 @@
-package clase2;
+package Progra3.clase2;
 
 class TreeNode {
     int value;
