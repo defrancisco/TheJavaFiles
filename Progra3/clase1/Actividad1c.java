@@ -9,6 +9,7 @@ public class Actividad1c {
 
     // CLASE FACTURA
     static class Factura {
+        @SuppressWarnings("unused")
         private int idFactura;
         private int idCliente;
         private double importe;
@@ -31,6 +32,7 @@ public class Actividad1c {
     // CLASE CLIENTE
     static class Cliente {
         private int idCliente;
+        @SuppressWarnings("unused")
         private String nombre;
 
         Cliente(int idCliente, String nombre) {

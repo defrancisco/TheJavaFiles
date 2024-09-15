@@ -13,6 +13,7 @@ import java.util.List;
 - Realizar el análisis de recurrencia por método inductivo (sin usar fórmulas matemáticas) 
 para indicar la complejidad algorítmica.
  */
+@SuppressWarnings("unused")
 class Cliente{
     int id;
     String nombre;

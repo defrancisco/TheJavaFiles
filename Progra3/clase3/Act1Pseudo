@@ -13,5 +13,6 @@ función encontrarClienteMax(listaClientes)
 
     si clienteMaxizq >= clienteMaxder
         devuelvoi clienteMaxizq
+
     sino
         devuelvo clienteMaxder
