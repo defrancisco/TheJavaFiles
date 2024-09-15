@@ -51,10 +51,10 @@ public class Actividad3 {
     public static void main(String[] args) {
         int[] desordenado = {354, 6757, 213, 80, 34, 87};
         
-        // Llamamos a quickSort para ordenar el array
+        
         quickSort(desordenado, 0, desordenado.length - 1);
         
-        // Imprimimos el array ordenado
+        
         System.out.println(Arrays.toString(desordenado));
     }
 }
