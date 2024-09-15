@@ -62,4 +62,9 @@ public class BinarySearchTree {
         System.out.println("Altura del arbole " + altura(root));
 
     }
+
+    public int getHeight(TreeNode raiZ) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getHeight'");
+    }
 }
