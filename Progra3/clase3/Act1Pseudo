@@ -1,0 +1,17 @@
+
+
+función encontrarClienteMax(listaClientes)
+    si listaClientes tiene solo 1 listaClientes
+        devuelvo listaClientes[0] ---> ese listaClientes
+
+    dividir la lista en dos mitades
+    izq = listaClientes[ desde inicio a la mitad]
+    der = listaClientes[ desde mitad + 1 a la derecha]
+
+    clienteMaxizq = encontrarClienteMax(izq)
+    clienteMaxder = encontrarClienteMax(der)
+
+    si clienteMaxizq >= clienteMaxder
+        devuelvoi clienteMaxizq
+    sino
+        devuelvo clienteMaxder
