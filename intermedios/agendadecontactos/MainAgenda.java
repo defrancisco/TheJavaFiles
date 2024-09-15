@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MainAgenda {
     public static void main(String[] args) {
-        agenda agenda = new agenda();
+        Agenda agenda = new Agenda();
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
@@ -27,7 +27,7 @@ public class MainAgenda {
                     String telefono = scanner.nextLine();
                     System.out.print("Ingresa el email: ");
                     String email = scanner.nextLine();
-                    agenda.agregarContacto(new contacto(nombre, telefono, email));
+                    agenda.agregarContacto(new Contacto(nombre, telefono, email));
                     break;
 
                 case 2:
@@ -39,7 +39,7 @@ public class MainAgenda {
                 case 3:
                     System.out.print("Ingresa el nombre del contacto a buscar: ");
                     nombre = scanner.nextLine();
-                    contacto contacto = agenda.buscarContactoPorNombre(nombre);
+                    Contacto contacto = agenda.buscarContactoPorNombre(nombre);
                     if (contacto != null) {
                         System.out.println("Contacto encontrado: " + contacto);
                     } else {
