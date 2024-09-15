@@ -63,8 +63,5 @@ public class BinarySearchTree {
 
     }
 
-    public int getHeight(TreeNode raiZ) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getHeight'");
-    }
+    
 }
