@@ -1,5 +1,22 @@
 package Progra3.clase7;
+/*
+ * ### Actividad 1
+
+Tenemos 4 nodos y las siguientes aristas con sus respectivos pesos:
+
+```jsx
+1 → 2, peso 2
+2 → 4, peso 4
+1 → 4, peso 5
+4 → 3, peso 2
+```
+
+Realizar una prueba de escritorio para el algoritmo de Floyd-Warshall, el cual es un algoritmo 
+clásico de programación dinámica que permite calcular las distancias más cortas 
+entre todos los pares de nodos en un grafo ponderado
+ */
 
 public class Actividad1 {
+    
     
 }
