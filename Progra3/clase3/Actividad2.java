@@ -1,4 +1,15 @@
 package Progra3.clase3;
+/*
+ * ### Actividad 2
+
+Objetivo: Dada una lista de números, encontrar los dos números mayores utilizando la técnica de Divide y Conquista.
+
+Tareas:
+
+- Pseudocódigo: Escribe el pseudocódigo que resuelva el problema.
+- Implementación en Java: Implementa el pseudocódigo en Java.
+- Análisis de Recurrencia: Realiza el análisis de recurrencia conceptual por el método inductivo (sin utilizar fórmulas matemáticas) para determinar la complejidad algorítmica del algoritmo.
+ */
 
 public class Actividad2 {
     public static int[] encontrarDosMayores(int[] nums, int ini, int fin){

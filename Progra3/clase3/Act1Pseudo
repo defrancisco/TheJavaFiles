@@ -1,6 +1,4 @@
-
-
-función encontrarClienteMax(listaClientes)
+funcion encontrarClienteMax(listaClientes)
     si listaClientes tiene solo 1 listaClientes
         devuelvo listaClientes[0] ---> ese listaClientes
 
@@ -12,7 +10,7 @@ función encontrarClienteMax(listaClientes)
     clienteMaxder = encontrarClienteMax(der)
 
     si clienteMaxizq >= clienteMaxder
-        devuelvoi clienteMaxizq
+        devuelvo clienteMaxizq
 
     sino
         devuelvo clienteMaxder

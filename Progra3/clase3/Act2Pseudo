@@ -1,5 +1,5 @@
 
-función encontarDosMayores(listaClientes)
+function encontarDosMayores(listaClientes)
     si listaClientes tiene 1 solo
         retornar -1 -> no es posible
     si listaClientes tiene 2 solo
@@ -7,6 +7,7 @@ función encontarDosMayores(listaClientes)
             retorno elem 1
         sino   
             retorno elem 2
+    
 
     dividir en dos 
 
