@@ -37,7 +37,7 @@ public class Actividad1 {
         int cambio = 6904;
 
         // como el método es true or false
-        if(cambioMoneda(cambio,monedas)){
+        if(cambioMoneda(monedas,cambio)){
             System.out.println("Es posible entregarle el cambio exacto al monto ingresado.");
         }else{
             System.out.println("No es posible entregarle el cambio exacto al monto ingresado.");
