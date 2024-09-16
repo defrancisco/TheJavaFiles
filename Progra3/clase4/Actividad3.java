@@ -50,9 +50,11 @@ public class Actividad3 {
     public static void main(String[] args) {
          Mercancia[] misMercancias = {
             //TENGO EL MISMO ERROR QUE CLASE 3 ACT 3 :(
+            /* 
             new Mercancia(2000, 10),
             new Mercancia(1500, 30),
             new Mercancia(3000, 40)
+            */
         };
 
         double capacidadPerCamion = 50; 

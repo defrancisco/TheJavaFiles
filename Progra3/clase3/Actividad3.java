@@ -66,12 +66,13 @@ public class Actividad3 {
         // Ejercicio con HashMap
         Map<Integer, Cliente> clientes = new HashMap<>();
         //ACÁ TENGO UN ERROR PERO NO SE COMO RESOLVERLO :(
+        /*
         clientes.put(1, new Cliente(1, "Cliente A", 85));
         clientes.put(2, new Cliente(2, "Cliente B", 70));
         clientes.put(3, new Cliente(3, "Cliente C", 95));
         clientes.put(4, new Cliente(4, "Cliente D", 60));
         clientes.put(5, new Cliente(5, "Cliente E", 90));
-
+        */
         Cliente[] result = encontarDosMayores(clientes, 0, clientes.size() - 1); // O(n)
 
         System.out.println("Los dos clientes con los mayores scorings son: ");
