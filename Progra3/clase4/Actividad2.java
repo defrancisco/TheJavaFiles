@@ -42,7 +42,7 @@ public class Actividad2 {
         int[]  comprobantes = {1,5,10,50,100,200};  // no estoy segura si esto es lo que se pide pero es una variable modificable
         int valorCompra = 370; // monto a verificar
 
-        int resultado = minimizarComprobantes(valorCompra,comprobantes);
+        int resultado = minimizarComprobantes(comprobantes,valorCompra);
 
         // variable que retorna es 'int' o -1 ---> resultado con mostrado con if
         if(resultado != -1 ){ // si es -1 
