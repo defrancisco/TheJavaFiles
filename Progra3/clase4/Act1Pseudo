@@ -1,3 +1,5 @@
+GREEDY ---> (utilizo el enfoque de ejes de banco como siempre)
+
 funcion cambioMoneda(cambio,moneda)
     ordenarDescendente(monedas) ---> greedy mindset
     para cada moneda en monedas ---> ciclo for O(n log n)

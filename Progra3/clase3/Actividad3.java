@@ -65,7 +65,7 @@ public class Actividad3 {
     public static void main(String[] args) {
         // Ejercicio con HashMap
         Map<Integer, Cliente> clientes = new HashMap<>();
-        //ACÁ TENGO UN ERROR PERO NO SE COMO RESOLVERLO
+        //ACÁ TENGO UN ERROR PERO NO SE COMO RESOLVERLO :(
         clientes.put(1, new Cliente(1, "Cliente A", 85));
         clientes.put(2, new Cliente(2, "Cliente B", 70));
         clientes.put(3, new Cliente(3, "Cliente C", 95));
