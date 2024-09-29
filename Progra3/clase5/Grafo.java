@@ -1,4 +1,4 @@
-package progra3.clase5;
+package Progra3.clase5;
 import java.util.*;
 
 public class Grafo 

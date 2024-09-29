@@ -1,4 +1,4 @@
-package progra3.clase5.Actividad4;
+package Progra3.clase5.Actividad4;
 import java.util.*;
 
 public class Dijkstra

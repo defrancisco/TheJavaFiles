@@ -1,5 +1,4 @@
-package progra3.clase5.Actividad1;
-
+package Progra3.clase5.Actividad1;
 import java.util.*;
 
 public class RedSocial 

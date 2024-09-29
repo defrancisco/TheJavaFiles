@@ -1,5 +1,5 @@
-package progra3.clase5.Actividad2;
 
+package Progra3.clase5.Actividad2;
 public class GrafoMatrizAdyacencia 
 {
     private int[][] matriz;
