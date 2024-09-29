@@ -1,0 +1,18 @@
+GREFO = es un como un diccionario vacío acá
+
+funcion agregarUsuario(usuario):
+    si el usuario no esta en GRAFO:
+        añado usuariocomo clave en GRAFO con una lsita vacía como valor
+
+funcion seguir(usuarioA,usuarioB):
+    si el usuarioA y usuarioB están en GREFO y usuarioB no esta en la lista de usuarioA:
+        añado usuarioB a la lsita de usuarioA
+
+Función dejar_de_seguir(usuarioA, usuarioB):
+    Si usuarioB está en la lista de usuarioA:
+        Eliminar usuarioB de la lista de usuarioA
+
+Función obtener_seguidores(usuario):
+    Para cada clave en GRAFO:
+        Si usuario está en la lista de esa clave:
+            Mostrar clave (usuario que sigue al parámetro dado)
