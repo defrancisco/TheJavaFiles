@@ -1,8 +1,0 @@
-PROGRAMACIÓN DINÁMICA
-
-1. Inicializar la matriz de distancias 'dist' con los pesos dados en el grafo. Si no hay arista entre dos nodos, asignar un valor infinito (INF).
-2. Para cada nodo 'k' (nodo intermedio):
-   a. Para cada nodo 'i' (nodo de origen):
-      i. Para cada nodo 'j' (nodo de destino):
-         - Si el camino de 'i' a 'j' pasando por 'k' es más corto que el camino directo de 'i' a 'j', actualizar la distancia 'dist[i][j]' con la nueva distancia más corta.
-3. Al finalizar, la matriz 'dist' contendrá las distancias más cortas entre todos los pares de nodos.
