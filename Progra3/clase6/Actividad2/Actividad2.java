@@ -1,5 +1,4 @@
-package Progra3.clase5;
-
+package Actividad2;
 public class Actividad2 {
     
 }
