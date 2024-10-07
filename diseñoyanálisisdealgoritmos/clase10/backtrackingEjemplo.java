@@ -22,8 +22,8 @@ public class backtrackingEjemplo {
     }
 
     public static void main(String[] args) {
-        int[] conjunto = {1, 2, 3};
-        List<Integer> combinacionActual = new ArrayList<>();
+        int[] conjunto = {1, 2, 3}; // conjunto de todos los pares posibles
+        List<Integer> combinacionActual = new ArrayList<>();  
         generarCombinaciones(conjunto, combinacionActual, 0);
     }
 }
