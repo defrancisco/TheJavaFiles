@@ -1,4 +1,4 @@
-package Progra3.clase1;
+package clase1;
 
 public class Combinaciones {
     public static boolean existeCombinacion(int[] arr, int objetivo){

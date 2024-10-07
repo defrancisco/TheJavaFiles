@@ -1,4 +1,4 @@
-package Progra3.clase3;
+package clase3;
 
 import java.util.HashMap;
 import java.util.Map;

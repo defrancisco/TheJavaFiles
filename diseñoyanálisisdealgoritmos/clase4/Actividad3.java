@@ -1,4 +1,6 @@
-package Progra3.clase4;
+package clase4;
+
+
 /*
  * ### Actividad 3
 

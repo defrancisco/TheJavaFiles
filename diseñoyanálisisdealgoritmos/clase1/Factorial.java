@@ -1,4 +1,4 @@
-package Progra3.clase1;
+package clase1;
 
 class Factorial {
     public static int factorial(int n){

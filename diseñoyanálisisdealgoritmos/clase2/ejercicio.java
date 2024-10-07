@@ -1,4 +1,4 @@
-package Progra3.clase2;
+package clase2;
 
 public class ejercicio {
     public static void main(String[] args) {

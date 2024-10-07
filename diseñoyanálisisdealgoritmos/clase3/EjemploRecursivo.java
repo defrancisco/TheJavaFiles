@@ -1,4 +1,4 @@
-package Progra3.clase3;
+package clase3;
 /*
  * Buscar el mayor elem en una lista
  */

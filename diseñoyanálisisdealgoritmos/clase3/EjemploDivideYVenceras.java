@@ -1,4 +1,4 @@
-package Progra3.clase3;
+package clase3;
 
 public class EjemploDivideYVenceras {
     private static int sumaDV(int[] nums, int i, int f){

@@ -3,8 +3,7 @@
  * menores que el pivote a su izquierda y todos los mayores a su derecha.
  * Luego, devuelve el índice del pivote.
  */
-package Progra3.clase2;
-
+package clase2;
 /*
  * Dado un array desordenado, ordenarlo utilizando 
  * quicksort. Utilizar el código base que está en 
