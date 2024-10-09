@@ -1,11 +1,12 @@
 # Diseño y Análisis de Algoritmos
 
-## Temas trados en estas clases
+## Temas trados en clases
 * Notación Big O
 * Divide & Conquer
 * Greedy
 * Programación Dinámica
 * Fuerza Bruta
+* Backtracking
 
 ## Algoritmos vistos
 * Búsqueda Binaria
