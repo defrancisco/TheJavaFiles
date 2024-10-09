@@ -1,0 +1,24 @@
+Como los tres ejercicios se encuentran en la msima base de resolución, 
+encontre una "template" de resolución.
+
+* esSeguro: Verifica si es seguro colocar un objeto en una posición dada (fila, columna) 
+asegurándose de que no haya conflictos en filas o columnas.
+ 
+ _ | _ | _ | _
+ _ | _ | _ | _
+ _ | _ | _ | _
+ _ | _ | _ | _
+
+
+* Backtracking: Se añaden elementos de forma recursiva y, en caso de que una configuración 
+no sea válida o ya se haya probado, se deshace la última decisión (se retira el objeto colocado) 
+y se prueba con otras combinaciones.
+
+Si yo se coloco en una columna/fila, y verifico que ya había un objeto previamente, realizo mi 
+acción de backtracking y retiro ese objeto par aver otra combinación. Así, como yo estoy retirando
+las combinaciones que no me dan con las condiciones, estaría elimiando esas combinaciones, algo que
+FB no hace.
+
+
+* Condición de parada: Cuando se han colocado todos los elementos (reinas, escritorios/sillas, 
+computadoras/impresoras), la configuración válida se imprime.
