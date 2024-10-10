@@ -12,12 +12,13 @@ package clase10;
  public class Actividad2{
     // Función para verificar si es seguro colocar un escritorio o una silla en la posición (fila, columna)
     public static boolean esSeguro(int[][] habitacion, int fila, int columna) {
-        // Verificamos si ya hay un escritorio o silla en la misma fila o columna
+        // Verificamos si ya hay un escritorio o silla en la misma fila
         for (int i = 0; i < fila; i++) {
             if (habitacion[i][columna] != 0) {
                 return false;
             }
         }
+        // Verificamos si ya hay un escritorio o silla en la misma columna
         for (int j = 0; j < columna; j++) {
             if (habitacion[fila][j] != 0) {
                 return false;

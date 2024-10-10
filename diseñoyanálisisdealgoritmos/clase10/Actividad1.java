@@ -18,38 +18,49 @@ package clase10;
 public class Actividad1 {
 
         // Función para verificar si es seguro colocar una reina en la posición (fila, columna)
-        public static boolean esSeguro(int[][] tablero, int fila, int columna) {
-            // Verificamos si ya hay una reina en la misma columna
-            for (int i = 0; i < fila; i++) {
-                if (tablero[i][columna] == 1) {
-                    return false;
-                }
-            }
+public static boolean esSeguro(int[][] tablero, int fila, int columna) {
     
-            // Verificamos la diagonal superior izquierda
-            int i = fila, j = columna;
-            while (i >= 0 && j >= 0) {
-                if (tablero[i][j] == 1) {
-                    return false;
-                }
-                i--;
-                j--;
-            }
-    
-            // Verificamos la diagonal superior derecha
-            i = fila;
-            j = columna;
-            while (i >= 0 && j < tablero.length) {
-                if (tablero[i][j] == 1) {
-                    return false;
-                }
-                i--;
-                j++;
-            }
-    
-            // Si no hay conflictos, es seguro colocar la reina
-            return true;
+    // Verificamos si ya hay una reina en la misma columna
+    // Recorremos todas las filas anteriores (de 0 a fila-1) en la columna actual
+    for (int i = 0; i < fila; i++) {
+        // Si encontramos una reina en la misma columna, devolvemos false
+        if (tablero[i][columna] == 1) {
+            return false; // No es seguro colocar otra reina
         }
+    }
+
+    // Verificamos la diagonal superior izquierda
+    // Inicializamos las variables i y j con los valores actuales de fila y columna
+    int i = fila, j = columna;
+    // Mientras estemos dentro del tablero (i y j no sean negativos)
+    while (i >= 0 && j >= 0) {
+        // Si encontramos una reina en esta diagonal, devolvemos false
+        if (tablero[i][j] == 1) {
+            return false; // No es seguro colocar otra reina
+        }
+        i--; // Movemos una fila hacia arriba
+        j--; // Movemos una columna hacia la izquierda
+    }
+
+    // Verificamos la diagonal superior derecha
+    // Reinicializamos i con fila y j con columna para empezar a revisar esta diagonal
+    i = fila;
+    j = columna;
+    // Mientras estemos dentro del tablero (i no sea negativo y j esté dentro de los límites de las columnas)
+    while (i >= 0 && j < tablero.length) {
+        // Si encontramos una reina en esta diagonal, devolvemos false
+        if (tablero[i][j] == 1) {
+            return false; // No es seguro colocar otra reina
+        }
+        i--; // Movemos una fila hacia arriba
+        j++; // Movemos una columna hacia la derecha
+    }
+
+    // Si no encontramos ninguna reina que cause conflicto, devolvemos true
+    // Es seguro colocar una reina en la posición (fila, columna)
+    return true;
+}
+
     
         // Función recursiva para colocar las reinas usando backtracking
         public static void colocarReinas(int[][] tablero, int fila, int reinasRestantes) {
