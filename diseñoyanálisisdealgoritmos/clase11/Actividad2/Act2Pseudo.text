@@ -1,0 +1,16 @@
+FUNCIÓN BFS(grafo, nodo_inicial):
+    Crear una cola (queue) para nodos a visitar
+    Crear un conjunto visitado
+    Agregar nodo_inicial a la cola
+    Marcar nodo_inicial como visitado
+    MIENTRAS la cola NO esté vacía:
+        nodo_actual = Desencolar el primer nodo de la cola
+        Imprimir nodo_actual
+        PARA cada vecino de grafo[nodo_actual]:
+            SI vecino NO está en visitado:
+                Agregar vecino a la cola
+                Marcar vecino como visitado
+
+INICIO DEL PROGRAMA:
+    Definir grafo como una matriz de adyacencia
+    Llamar a BFS(grafo, 0)
