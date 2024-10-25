@@ -1,6 +1,7 @@
 # Diseño y Análisis de Algoritmos
+Materia de Tercer Año
 
-## Temas trados en clases
+## Temas tratados en clases
 * Notación Big O
 * Divide & Conquer
 * Greedy
