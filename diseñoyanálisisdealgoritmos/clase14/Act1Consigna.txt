@@ -1,0 +1,5 @@
+Actividad 1
+Ingresar a https://es.wikipedia.org/wiki/Problema_del_viajante , 
+Se pide: explicar el problema del viajante, realizar el cálculo de la combinaciones 
+posibles para 15 ciudades y buscar los métodos heurísticos indicados en esta 
+página web para realizar un pequeño resumen de estos métodos
