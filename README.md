@@ -16,7 +16,7 @@
   - Algoritmo de Ordenamiento QuickSort
   - Algoritmo de Ordenamiento MergeSort
   - Algoritmo de Búsqueda Binaria
- * Técnica de resolución de problemas Greedy (enfocado en grafos para la búsqueda del MST)
+* Técnica de resolución de problemas Greedy (enfocado en grafos para la búsqueda del MST)
   - Algoritmo de Prim
   - Algoritmo de Kruskal
   - Algoritmo de Dijkstra
