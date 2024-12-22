@@ -1,7 +1,7 @@
 # TheJavaFiles
 
 ## Algoritmos y Estrcuturas de Datos II
-* Manejo de estructuras de implementación, tanto dinámica como estáticas, y uso de los siguientes TDAs
+* Manejo de estructuras de implementación, tanto dinámicas como estáticas, y uso de los siguientes TDAs
   - Pila
   - Cola
   - Cola con Prioridad
